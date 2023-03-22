@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.cash-container{
+    background-color: #150b3e;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
+}
+.cash-bg{
+    background-color: white;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    margin:30px;
+}
+.initial-name{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+.initial{
+    color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.full-name{
+    color: #d4d2db;
+    font-size: 15px;
+    margin-left:20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.cash-info{
+    margin-left:20px;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+.balance{
+    color:#585076;
+    font-size: 20px;
+   
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+}
+.rupees{
+    color:#d4d2db;
+    font-weight: bold;
+    font-size: 40px;
+}
+.rupees-text{
+    color:#585076;
+    font-size: 20px;
+}
+.widthdrawal{
+    margin-left: 20px;
+}
+.widthdrwal-text{
+    color: white;
+    font-size: 20px;
+}
+.choose-money{
+    color:#585076;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+.denominations-list {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
